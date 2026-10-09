@@ -1,0 +1,22 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Go
+*.go linguist-language=Go
+
+# TypeScript/JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+# Vendored code
+vendor/ linguist-vendored
+node_modules/ linguist-vendored
+
+# Generated code
+*.pb.go linguist-generated
+*.gen.go linguist-generated
+
+# Test files (count towards language stats)
+*_test.go -linguist-vendored
